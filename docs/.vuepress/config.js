@@ -9,8 +9,8 @@ export default defineUserConfig({
   description: '麦旋风超好吃的力扣解题笔记',
 
   theme: defaultTheme({
-    logoDark: '/images/favicon-vue-f4f4f4.svg',
-    logo: '/images/favicon-vue-f4f4f4.svg',
+    logoDark: '/images/favicon-vue-f4f4f4-2.png',
+    logo: '/images/favicon-vue-f4f4f4-2.png',
     navbar: [
       {
         text: '首页',
@@ -20,4 +20,10 @@ export default defineUserConfig({
   }),
 
   bundler: viteBundler(),
+
+  head: [
+    [
+      'link', {rel: 'icon', href: '/images/favicon.ico'}
+    ]
+  ]
 })
