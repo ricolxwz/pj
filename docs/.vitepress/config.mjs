@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { nav } from './nav.mjs'
+import { sidebar } from './sidebar.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,14 +58,14 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
-    nav: [
-      { 
-        text: 'Leetcode', 
-        link: '/leetcode/'
-      },
-    ],
-    sidebar: {
-    },
+    // nav: [
+    //   { 
+    //     text: 'Leetcode', 
+    //     link: '/leetcode/'
+    //   },
+    // ],
+    nav,
+    sidebar,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ricolxwz' }
     ],
