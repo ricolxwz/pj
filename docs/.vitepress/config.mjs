@@ -20,7 +20,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/favicon-vitepress-noeffect-3.svg',
+    logo: '/favicon-vitepress-noeffect-3.png',
     search: {
       provider: 'local',
       options: {

@@ -1,5 +1,5 @@
 ---
-title: 力扣简介
+title: 力扣导航
 layout: doc
 navbar: true
 sidebar: false
@@ -11,3 +11,4 @@ footer: true
 ---
 
 - ✅ [20.有效的括号](/leetcode/20)
+- 🚧 [21.合并两个有序链表](/leetcode/21)
