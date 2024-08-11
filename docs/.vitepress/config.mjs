@@ -16,7 +16,8 @@ export default defineConfig({
   markdown: {
     image: {
       lazyLoading: true
-    }
+    },
+    math: true
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
