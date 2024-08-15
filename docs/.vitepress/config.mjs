@@ -17,7 +17,14 @@ export default defineConfig({
     image: {
       lazyLoading: true
     },
-    math: true
+    math: true,
+    container: {
+      tipLabel: "提示",
+      warningLabel: "警告",
+      dangerLabel: "危险",
+      infoLabel: "信息",
+      detailsLabel: "例子",
+    },
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
