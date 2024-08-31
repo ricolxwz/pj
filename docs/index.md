@@ -7,7 +7,7 @@ hero:
   text: "Leetcode, 各种项目"
   tagline: 总能找到你想要的东西🫰
   image:
-    src: /favicon-vitepress-3.svg
+    src: https://cdn.jsdelivr.net/gh/ricolxwz/logo@master/favicon-mc-1.svg
     alt: 背景图
   actions:
     - theme: brand
